@@ -1,0 +1,34 @@
+# Archivos de configuración del IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Directorio de dependencias (si algún día usas Composer)
+/vendor/
+
+# Archivo de configuración local (si tienes uno)
+config.local.php
+
+# Archivos de backup y temporales
+*.bak
+*.tmp
+*.swp
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+error_log
+
+# Carpetas de subida dinámica (comprobantes, imágenes de productos que no sean las originales)
+/assets/comprobantes/
+/assets/img-products/
+# Si quieres conservar las imágenes de ejemplo, añade excepciones después del push inicial
+
+# Archivo de base de datos (si lo exportas para desarrollo)
+*.sql
+!store.sql   # <-- Mantiene el archivo store.sql que compartiste
